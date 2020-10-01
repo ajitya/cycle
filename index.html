@@ -17,14 +17,14 @@
     </div>
 
     <div class="wrapper">
-      <div class="back_content">
+      <div class="back_content" id="slide_back">
         <div class="right_square">
         </div>
         <div class="under_square">
           <img src="./img/nakajima_logo.png" alt="トップ画像">
         </div>
       </div>
-        <section class="top">
+        <section class="top" id="slide_top">
         <h1><p class="top_p_first">TRY TO ACQUIRE NEW</p>
         <p>TECHNOLOGY</p></h1>
         <div class="right_square">
@@ -210,6 +210,25 @@
       <footer></footer>
     </div>
     <script>
+    var setImage = [
+      "./img/back_2.jpg",
+      "./img/back_3.jpg",
+      "./img/back_4.jpg",
+      "./img/back.jpg"
+    ];
+
+    var i = 0;
+
+    function slideimage(){
+      if(i >= (setImage.length)){
+        i = 0;
+      }
+      document.getElementById("slide_top").style.backgroundImage = "url(" + setImage[i] + ")";
+      document.getElementById("slide_back").style.backgroundImage = "url(" + setImage[i] + ")";
+      i++;
+    }
+
+    setInterval("slideimage()",3000);
 
     </script>
   </body>

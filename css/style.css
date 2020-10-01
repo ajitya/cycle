@@ -12,6 +12,7 @@ body,p,a,nav,h1,img,section,picture,source,footer{
   background-repeat: no-repeat;
   background-position: 80% 20%;
   background-size: cover;
+  transition: background-image 2.0s ease;
 }
 .top .right_square{
   position: absolute;
@@ -65,6 +66,7 @@ body,p,a,nav,h1,img,section,picture,source,footer{
   background-position: 80% 20%;
   z-index: -10;
   background-size: cover;
+  transition: background-image 2.0s ease;
 }
 .back_content .right_square{
   position: absolute;
