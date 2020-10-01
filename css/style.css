@@ -8,7 +8,7 @@ body,p,a,nav,h1,img,section,picture,source,footer{
 .top{
   min-width: 100%;
   min-height: 100vh;
-  background-image: url(../img/back.jpg);
+  background-image: url(../img/back.webp);
   background-repeat: no-repeat;
   background-position: 80% 20%;
   background-size: cover;
@@ -61,7 +61,7 @@ body,p,a,nav,h1,img,section,picture,source,footer{
   position: fixed;
   min-width: 100%;
   min-height: 100%;
-  background-image: url(../img/back.jpg);
+  background-image: url(../img/back.webp);
   background-repeat: no-repeat;
   background-position: 80% 20%;
   z-index: -10;
